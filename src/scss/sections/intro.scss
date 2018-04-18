@@ -1,0 +1,50 @@
+.intro-bg{
+  background: #032b64 url('../../static/intro.png') no-repeat right 0;
+  height: 869px;
+  background-size: cover;
+}
+.header-wrapper{
+  max-width: 1445px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.intro-wrapper{
+  max-width: 1445px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.header{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#logo{
+  margin-left: 20px;
+}
+.intro-text{
+  max-width: 780px;
+  width: 100%;
+  margin-top: 210px;
+}
+.intro-text h1{
+  font-family: $font-bold;
+  font-size: 70px;
+  color: $font-color;
+}
+.intro-match-cards{
+  margin-bottom: 325px;
+}
+.all-schedule{
+  color: #ffffff;
+  font-family: $font-regular;
+  display: flex;
+  align-items: center;
+}
+#arrows{
+  padding-left: 22px;
+}

@@ -1,0 +1,33 @@
+.team-wrapper{
+  margin-top: 75px;
+}
+.team-headings-wrapper{
+  max-width: $full-hd;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team-content-wrapper {
+  width: 100%;
+  margin-top: 120px;
+  height: 600px;
+  float: left;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.team-content-container{
+  margin-left: 240px;
+}
+.player-card{
+  width: 250px;
+  float:left;
+  margin-right: 100px;
+}
+.player-card img{
+  height: 250px;
+  margin-bottom: 55px;
+}
+.player-card span{
+  font-family: $font-bold;
+  font-size: 22px;
+}

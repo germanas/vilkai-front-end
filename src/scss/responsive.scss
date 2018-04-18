@@ -1,0 +1,493 @@
+.clear:after {display: table; content:''; clear: both;}
+.row {width: 100%;}
+.col-100 {width: 100%; float: left;}
+.col-90 {width: 90%; float: left;}
+.col-80 {width: 80%; float: left;}
+.col-70 {width: 70%; float: left;}
+.col-60 {width: 60%; float: left;}
+.col-50 {width: 50%; float: left;}
+.col-40 {width: 40%; float: left;}
+.col-30 {width: 30%; float: left;}
+.col-20 {width: 20%; float: left;}
+.col-10 {width: 10%; float: left;}
+
+@media only screen and (max-width : 1440px){
+  .intro-wrapper{
+    max-width: 1330px;
+  }
+  .main-header.lygos{
+    max-width: $laptop-width;
+    margin: 0 auto;
+  }
+  .header{
+
+    margin-left: 55px;
+  }
+  .leagues-container{
+    margin-left: 0px;
+  }
+  .leagues-wrapper{
+    max-width: 980px;
+  }
+  .ball-image{
+    display: none;
+  }
+  .table-gradient {
+    max-width: 600px;
+    width: 100%;
+  }
+  .league-table-headers{
+    max-width: 950px;
+    width: 100%;
+  }
+
+  .team-headings-wrapper {
+    max-width: $laptop-width;
+  }
+  .winlose{
+    margin-left: 20px;
+  }
+.leagues-tabs{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .league-table-headers, .games, .santykis{
+    display: none;
+  }
+  .player-inner-wrapper{
+    width: 80%;
+  }
+}
+@media only screen and (max-width : 1366px) {
+  .ball-image{
+    display: none;
+  }
+  .player-inner-wrapper{
+    width: 90%;
+  }
+  .match-inner-wrapper,.team-inner-wrapper{
+    width: 75%;
+  }
+  .upcomming-games-container{
+    padding-left: 0;
+    text-align: center;
+  }
+  .tabs.match{
+    width: $responsive-content-width;
+    margin: 0 auto;
+  }
+
+
+  .leagues-table-wrapper{
+  max-width: 950px;
+  width: 100%;
+    margin: 0 auto;
+  }
+  .table-container{
+    margin: 0 auto;
+    width: 600px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .ball-image{
+    display: none;
+  }
+  .match-inner-wrapper{
+    width: 100%;
+  }
+  .player-inner-wrapper{
+    width: 100%;
+  }
+}
+@media only screen and (max-width : 768px) {
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .league-table-headers, .team-name, .games, .santykis{
+    display: none;
+  }
+  .points{
+    margin-left: 0;
+  }
+
+  .card.white.intro{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+  }
+  .card.blue.intro{
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+
+  }
+}
+
+@media only screen and (max-width : 570px) {
+  #logo{
+    height: 60px;
+  }
+  #burger{
+
+  }
+  .card{
+    width: 260px;
+  }
+  .intro-bg{
+    background: #032b64 url('../../static/mobile-bg.png') no-repeat right 0;
+    height: 520px;
+    background-size: cover;
+  }
+.all-schedule{
+  display: none;
+}
+  .upcomming-games-container {
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+  .upcoming-games-title{
+    width: $responsive-content-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .upcoming-games-cards{
+    padding-top: 150px;
+  }
+  .upcoming-games-wrapper{
+    background: none;
+    height: 320px;
+  }
+
+  .arrows.upcoming-games{
+    display: none;
+  }
+  .intro-text{
+    margin-top: 120px;
+  }
+  .groups-tabs{
+    text-align: center;
+  }
+  .intro-text h1{
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: $responsive-content-width;
+  }
+  .intro-wrapper{
+    padding: 0;
+  }
+  .main-header.news{
+    width: 350px;
+  }
+
+  .arrows.news.container{
+    display: none;
+  }
+  .team-content-container{
+    margin-left: 20px;
+  }
+  .news-container{
+    margin-left: 10px;
+    height: 440px;
+  }
+  .footer-container{
+    display: block;
+  }
+  .news-card-container{
+    padding-top: 20px;
+    height: 600px;
+  }
+  .leagues-wrapper{
+
+  }
+
+  .news-card{
+    float:left;
+    width: 155px;
+    margin-right: 20px;
+  }
+  .news-card img{
+    height: 190px;
+    width: 155px;
+    box-shadow: 32.766px 22.943px 53.4px 6.6px rgba(0, 0, 0, 0.15);
+  }
+  .card-info{
+
+  }
+  .main-header.lygos{
+    margin-left: auto;
+    margin-right: auto;
+    width: $responsive-content-width;
+  }
+  .main-header.team{
+    margin-left: auto;
+    margin-right: auto;
+    width: $responsive-content-width;
+  }
+  .card-info h1{
+    font-size: 16px;
+  }
+  .card-info p{
+    display: none;
+  }
+  .leagues-tabs{
+    width: $responsive-content-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-content-wrapper{
+    height: 340px;
+  }
+  .table-container{
+    margin: 0 auto;
+    width: $responsive-content-width;
+  }
+
+  .upcoming-games-title{
+    font-size: 24px;
+  }
+
+  .player-card img{
+    height: 125px;
+    width: 120px;
+  }
+  .player-card{
+    margin-right: 35px;
+    width: 120px;
+  }
+  .big-logo {
+    margin-left:50px;
+    margin-top: 50px;
+  }
+  .big-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .social-links{
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+  .social-links h1{
+    display: none;
+  }
+  .about-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: $responsive-content-width;
+    margin-top: 50px;
+  }
+  .partners{
+    margin-left: auto;
+    margin-right: auto;
+    width: $responsive-content-width;
+    margin-top: 50px;
+  }
+  .footer-line{
+    clear: both;
+  }
+  .logo-container{
+    margin-bottom:30px;
+  }
+  .copyright-container{
+    width: $responsive-content-width;
+  }
+  .email, .telephone, .design{
+    float: none;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .table-gradient{
+    width: $responsive-content-width;
+  }
+   .header{
+    margin-left: 20px;
+  }
+  .team-inner-wrapper {
+    height: 1400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .team-content{
+    max-width: $responsive-content-width;
+  }
+  .team-text h1{
+    font-size: 32px;
+  }
+  .match-inner-wrapper {
+    width: 100%;
+  }
+  .upcomming-games-container{
+    text-align: left;
+  }
+    /* menu */
+  .menu-pop-up {
+
+    width: 100%;
+  }
+  .player-content{
+    max-width: $responsive-content-width;
+  }
+  .player-info h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .player-stats{
+    margin-bottom: 50px;
+  }
+  .player-info h2{
+    font-size: 16px;
+  }
+  .short-bio img{
+    display: none;
+  }
+  .short-bio{
+    margin-top: 40px;
+  }
+  .table-bold{
+    width: 170px;
+  }
+  .short-bio table{
+    margin-left: 0px;
+  }
+  .full-hd-table{
+    display: none;
+  }
+  .mobile-table{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .player-stats{
+    margin-top: 300px;
+  }
+
+/* Match */
+  .match-content{
+    max-width: $responsive-content-width;
+  }
+  .match-information-wrapper h1{
+    font-size: 32px;
+  }
+  .match-information-wrapper h2{
+    font-size: 16px;
+  }
+  .team-1 img, .team-2 img{
+    height: 65px;
+    width: 65px;
+  }
+  .team-1 span{
+    font-size: 14px;
+  }
+  .team-2 span{
+    font-size: 14px;
+    font-family: $font-thin;
+  }
+  .score-1.match,   .score-2.match, .vs.match{
+    font-size: 32px;
+  }
+.col-20.match{
+   width: 20%;
+ }
+  .col-10.match{
+    width: 10%;
+  }
+  .col-70.match{
+    width: 70%;
+    float: right;
+  }
+  .match-blue-wrapper{
+    height: 1000px;
+  }
+  .match-blue-container{
+    max-width: 330px;
+    margin: 0 auto;
+  }
+  .starting-consistency h1,.extra-players h1, .starting-consistency span,.extra-players span{
+    font-size: 22px;
+  }
+  .players, .players span{
+    font-size: 16px;
+    clear: both;
+  }
+  .players.right{
+    float: left;
+  }
+  .extra-players{
+    margin-top: 70px;
+  }
+
+/* columns */
+  .col-100 {
+    width: 100%;
+    float: left;
+
+  }
+  .col-90 {
+    width: 100%;
+    float: left;
+  }
+  .col-80 {
+    width: 100%;
+    float: left;
+  }
+  .col-70 {
+    width: 100%;
+    float: left;
+  }
+  .col-60 {
+    width: 100%;
+    float: left;
+  }
+  .col-50 {
+    width: 100%;
+    float: left;
+  }
+  .col-40 {
+    width: 100%;
+    float: left;
+  }
+  .col-30 {
+    width: 100%;
+    float: left;
+  }
+  .col-20 {
+    width: 50%;
+    float: left;
+  }
+  .col-10 {
+    width: 50%;
+    float: left;
+  }
+.player-info img{
+    height: 240px;
+}
+  .player-image-mobile{
+    height: 240px;
+  }
+  .player-image{
+    display: none;
+  }
+  .player-names h1{
+    position: absolute;
+    z-index: 1000;
+    top:320px;
+  }
+
+
+}
+@media only screen and (min-width : 570px) {
+  .mobile-table{
+    display: none;
+  }
+  .footer-line.last{
+    display: none;
+  }
+  .player-image-mobile{
+    display: none;
+  }
+}

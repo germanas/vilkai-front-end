@@ -1,0 +1,164 @@
+.match-inner-wrapper{
+  height: 1080px;
+  width: 50%;
+  position:absolute;
+  z-index:1000;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.match-inner-wrapper::-webkit-scrollbar{
+  width: 9px;
+}
+.match-inner-wrapper::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.match-inner-wrapper::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+}
+.match-content{
+  margin: 50px auto;
+  max-width: $inner-popup-width;
+  width: 100%;
+}
+.match-information-wrapper{
+  clear: both;
+  margin-top: 90px;
+}
+.match-information-wrapper h1{
+  font-size: 62px;
+  font-family: $font-bold;
+  margin-bottom: 25px;
+}
+.match-information-wrapper h2{
+  font-size: 32px;
+  margin-bottom: 75px;
+  font-family: $font-bold;
+}
+.match-information-wrapper span {
+  font-family:$font-thin ;
+}
+.match-information{
+  display: flex;
+  align-items: center;
+}
+.team-1, .team-2{
+  text-align: center;
+}
+.team-1 span, .team-2 span{
+  font-family: $font-bold;
+  font-size: 16px;
+}
+.team-2 span{
+  font-family: $font-thin;
+}
+.team-1 img, .team-2 img{
+  height: 135px;
+  width: 125px;
+  margin-top: 20px;
+}
+.match-blue-wrapper{
+  height: 700px;
+  background-color: #03356e;
+  margin-top: 9px;
+}
+.score-1.match{
+  margin-left: 45px;
+  font-size: 62px;
+  font-family: $font-bold;
+  margin-right: 35px;
+}
+.score-2.match{
+  font-size: 62px;
+  margin-left: 35px;
+  margin-right: 45px;
+
+}
+.vs.match{
+  font-size: 62px;
+  font-family: $font-bold;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.tabs.match{
+  margin-top: 100px;
+
+}
+/* match summary tab*/
+.match-selected-blue{
+  color:#ffffff;
+  background-color: #03356e;
+}
+.match-tab-container{
+  max-width: $inner-popup-width;
+  width: 100%;
+  margin: 0 auto;
+}
+.match-blue-container{
+  max-width: $inner-popup-width;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.match-row{
+  color: #ffffff;
+
+
+}
+.match-row.light-blue{
+  color: #a2cdff;
+
+}
+.time{
+  float: right;
+  margin-right: 5px;
+}
+.card-type{
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+
+}
+.card-elipse{
+  display: flex;
+  justify-content: center;
+
+}
+.description{
+  margin-left: 10px;
+  font-family: $font-thin;
+}
+.player-name{
+  font-family: $font-bold;
+}
+
+/* consistency tab */
+.match-blue-container{
+  color: #ffffff;
+}
+.starting-consistency h1, .extra-players h1{
+  font-family: $font-bold;
+  font-size: 32px;
+}
+.starting-consistency span, .extra-players span{
+  font-family: $font-thin;
+  font-size: 32px;
+}
+.starting-consistency{
+  margin-bottom: 270px;
+}
+.extra-players{
+
+}
+.players{
+  margin-top: 50px;
+  font-size: 18px;
+}
+.players.right{
+  float: right;
+}
+.players span{
+  color:#a2cdff;
+  font-family: $font-bold;
+  font-size: 18px;
+}

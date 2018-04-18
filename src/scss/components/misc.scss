@@ -1,0 +1,44 @@
+a {color:$link-color;}      /* unvisited link */
+a:visited {color:$link-color;;}  /* visited link */
+a:hover {color:$link-color;;}  /* mouse over link */
+a:active {color:$link-color;;}  /* selected link */
+
+.arrows{
+  width: 300px;
+}
+.arrows.upcoming-games{
+  margin: 357px auto;
+  position: relative;
+  z-index: 3;
+}
+.arrows.news.container{
+
+  height: 16px;
+  margin: 14px auto;
+}
+.arrows a{
+  text-decoration: none;
+}
+.left-arrow{
+  float:left;
+  display: flex;
+}
+.right-arrow{
+  float:right;
+  display: flex;
+}
+.left-arrow span{
+  margin-left: 20px;
+  position: relative;
+  top: -10%;
+  color: #dfdfdf;
+}
+.right-arrow span{
+  position: relative;
+  top: -10%;
+  margin-right: 20px;
+}
+.row{
+  clear: both;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,15 @@
+<svg id="burger" xmlns="http://www.w3.org/2000/svg" width="27" height="20" viewBox="0 0 27 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M264,54H240" transform="translate(-238.5 -49.5)"/>
+  <path id="Shape_5_copy" data-name="Shape 5 copy" class="cls-1" d="M264,61H240" transform="translate(-238.5 -49.5)"/>
+  <path id="Shape_5_copy_2" data-name="Shape 5 copy 2" class="cls-1" d="M264,68H240" transform="translate(-238.5 -49.5)"/>
+</svg>

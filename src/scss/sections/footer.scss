@@ -1,0 +1,95 @@
+.footer{
+  clear:both;
+
+
+}
+.footer-container{
+  max-width: 1360px;
+  width: 100%;
+  margin: 0px auto;
+  height: 290px;
+  display: flex;
+  align-items: center;
+}
+.footer-line{
+  margin: 0;
+  border-top: 1px solid #e5e5e5;
+}
+.copyright-container{
+  max-width: 1360px;
+  width: 100%;
+  margin: 0px auto;
+  height: 100px;
+}
+.big-logo img{
+  height: 174px;
+}
+.social-links h1{
+  margin-bottom: 32px;
+}
+.social-links a{
+  text-decoration: none;
+}
+.social.link{
+  height: 25px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.social.link span{
+  margin-left: 13px;
+  font-size: 14px;
+}
+.about-text h1{
+  margin-bottom: 32px;
+}
+.about-text p{
+  color: #3f3f3f;
+  font-family: $font-thin;
+  font-size: 14px;
+  line-height: 22px;
+  padding-right: 30px;
+}
+.partners{
+
+}
+.partners h1{
+  margin-bottom: 32px;
+}
+.logo-container{
+  float: left;
+}
+.partner-logo{
+  display: inline;
+  margin-right: 30px;
+}
+.copyright-container{
+  margin-top: 40px;
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.telephone{
+  float:left;
+}
+.telephone span{
+  margin-left: 11px;
+  color: #000000;
+}
+.email{
+  float:left;
+  margin-left: 60px;
+}
+.email span{
+  margin-left: 11px;
+  color: #000000;
+}
+.design{
+  float:right;
+}
+.design span{
+  margin-left: 11px;
+  color: #000000;
+}
+.design a{
+  text-decoration: none;
+}

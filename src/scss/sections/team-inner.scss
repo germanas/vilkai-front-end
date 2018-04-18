@@ -1,0 +1,77 @@
+
+.team-inner-wrapper{
+  height: 1080px;
+  width: 50%;
+  position:absolute;
+  z-index:1000;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.team-inner-wrapper::-webkit-scrollbar{
+  width: 9px;
+}
+.team-inner-wrapper::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+.team-inner-wrapper::-webkit-scrollbar-thumb {
+  background: #cfcfcf;
+}
+
+.team-content{
+  margin: 50px auto;
+  max-width: 560px;
+  width: 100%;
+}
+.left-arrow.team{
+  float: right;
+  margin-bottom: 90px;
+}
+.left-arrow.team a{
+  text-decoration: none;
+}
+.left-arrow.team span{
+  color:#000000;
+}
+.team-text{
+  clear: both;
+  margin-top: 90px;
+}
+.team-text h1{
+  font-size: 62px;
+  font-family: $font-bold;
+  margin-bottom: 75px;
+}
+.team-text p{
+  font-family: $font-thin;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.team-text a{
+  color:#03356e;
+}
+.team-text a:visited{
+  color:#03356e;
+}
+.team-text ul{
+  font-family: $font-thin;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.team-text li::before{
+  content: "•";
+  color: #03356e;
+  margin-right: 10px;
+}
+.gallery-list{
+  height: 400px;
+}
+.gallery-list-item{
+  margin-top: 30px;
+  height: 100px;
+  width: 150px;
+  float: left;
+  margin-right: 10px;
+}

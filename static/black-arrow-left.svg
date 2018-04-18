@@ -1,0 +1,15 @@
+<svg id="left" xmlns="http://www.w3.org/2000/svg" width="27" height="13" viewBox="0 0 27 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3f3f3f;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_3_copy_10" data-name="Rectangle 3 copy 10" class="cls-1" d="M908.584,1558.01l-7.6,7.49,7.6,7.49" transform="translate(-882 -1559)"/>
+  <path id="Rectangle_3_copy_11" data-name="Rectangle 3 copy 11" class="cls-1" d="M898.594,1558.01l-7.6,7.49,7.6,7.49" transform="translate(-882 -1559)"/>
+  <path id="Rectangle_3_copy_12" data-name="Rectangle 3 copy 12" class="cls-1" d="M888.605,1558.01l-7.6,7.49,7.6,7.49" transform="translate(-882 -1559)"/>
+</svg>

@@ -1,0 +1,145 @@
+.leagues-wrapper{
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.leagues-bg{
+  width: 100%;
+}
+.leagues-container{
+  width: 100%;
+  margin-top: 9px;
+  margin-left: -161px;
+  height: 810px;
+  background: #013066 url('../../static/groups-bg.png');
+  background-size: cover;
+}
+.tabs{
+  margin-top: 45px;
+}
+.tabs span{
+  padding: 9px 15px;
+}
+
+span.selected-blue{
+  color:#ffffff;
+  background-color: #013066;
+}
+
+span.selected-white{
+  color:#013066;
+  background-color: #ffffff;
+}
+
+.groups-tabs{
+  padding-top: 50px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.groups-tabs span{
+  padding: 9px 15px;
+}
+.ball-image{
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
+}
+
+.ball-image img{
+  position: relative;
+  left: 60%;
+  width: 35%;
+  height: auto;
+}
+.league-table-headers{
+  color:#ffffff;
+  max-width: 950px;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.league-table-headers span{
+  margin-right: 25px;
+}
+.table-container{
+  margin-left: 161px;
+}
+
+.leagues-table-wrapper{
+  max-width: 950px;
+  width: 100%;
+  max-height: 515px;
+  padding-top: 30px;
+  overflow: scroll;
+  background-color: #ffffff;
+  box-shadow: 32.766px 22.943px 53.4px 6.6px rgba(0, 0, 0, 0.15);
+}
+.leagues-table td{
+  border-bottom: solid 1px #cecece;
+  height: 52px;
+  vertical-align: middle;
+}
+
+.leagues-table td:nth-child(1){
+  padding-left: 40px;
+}
+
+
+.games{
+
+}
+.table-row{
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.table-row:hover{
+  background-color: #ddedff;
+  background-size: 1999px;
+
+}
+.team-table{
+  display: flex;
+  align-items: center;
+}
+.team-table img{
+  height: 25px;
+}
+.santykis{
+ margin-left: 43px;
+  color: #03356e;
+
+}
+.points{
+  margin-left: 49px;
+  color: #03356e;
+}
+.winlose{
+  margin-left: 35px;
+  color: #03356e;
+}
+.team-table img{
+  height: 25px;
+  margin-right: 25px;
+}
+.possition{
+  margin-right: 25px;
+}
+.team-name{
+
+}
+.table-gradient{
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+margin-top: -169px;
+  width: 950px;
+  height: 84px;
+  z-index: 100;
+}
+
